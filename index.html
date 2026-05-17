@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Turn Message -->
+    <h2 id="turn">Your Turn (X)</h2>
+
+    <div class="board">
+        <div class="box" onclick="play(0)"></div>
+        <div class="box" onclick="play(1)"></div>
+        <div class="box" onclick="play(2)"></div>
+
+        <div class="box" onclick="play(3)"></div>
+        <div class="box" onclick="play(4)"></div>
+        <div class="box" onclick="play(5)"></div>
+
+        <div class="box" onclick="play(6)"></div>
+        <div class="box" onclick="play(7)"></div>
+        <div class="box" onclick="play(8)"></div>
+    </div>
+
+    <h2 id="result"></h2>
+
+    <button onclick="restartGame()">Restart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
